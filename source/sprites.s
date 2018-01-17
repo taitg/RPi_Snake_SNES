@@ -1,6 +1,6 @@
 /*
-CPSC 359 Assignment 4, W2016
-Geordie Tait 10013837
+SNAKE for Raspberry Pi
+Geordie Tait
 
 Contains 32x32 game sprites and a function for changing snake colour
 
@@ -9,11 +9,6 @@ http://www.biryuk.com/2015/05/free-snake-sprites.html
 
 Other sprites were obtained from opengameart.org
 
-
-PLEASE NOTE: Some commenting was done at home without the ability to
-             compile, I don't think I broke anything but if I did please
-             let me know ASAP so I can fix it and resubmit before it's
-             too late. Thanks!
 */
 
 

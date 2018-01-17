@@ -1,5 +1,5 @@
 /*
-	Filename:	main.s
+	Filename:	jtag.s
 	Author:	Dmitry	Zavyalov
 	Date:	05/19/2013
 	Description:	Select	correct	GPIO	ALT	functions	to	enable	JTAG	and	loop	forever

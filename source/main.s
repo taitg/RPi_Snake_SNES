@@ -1,7 +1,6 @@
 /*
-CPSC 359 Assignment 4: Video game (Snake)
-University of Calgary   W2016
-Geordie Tait    10013837
+SNAKE for Raspberry Pi
+Geordie Tait
 
 An implementation of the classic video game Snake in ARM assembly.
 
@@ -17,11 +16,6 @@ collecting speed upgrades past this point only increases score points. Apples,
 lives, and speed upgrades each award the player 10 score points. The exit door
 appears once the snake has eaten 20 apples, and entering it wins the game.
 
-
-PLEASE NOTE: Some commenting was done at home without the ability to
-             compile, I don't think I broke anything but if I did please
-             let me know ASAP so I can fix it and resubmit before it's
-             too late. Thanks!
 */
 
 .section    .init

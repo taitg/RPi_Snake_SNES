@@ -1,2 +1,4 @@
 # RPi_Snake_SNES
 Snake written in ARM assembly for running on a Raspberry Pi with a SNES controller over GPIO
+
+The game map is a 32x24 grid including one tile of border around the edges and 20 (normal mode) or 40 (hard mode) walls scattered randomly throughout the middle. The player starts with 3 lives and loses 1 upon impacting a border, a wall, or itself. Extra lives can be collected and appear in random locations every 100 score points. 30 seconds after beginning the game (and subsequently every 10 seconds), a speed upgrade appears in a random location. This causes the snake to change in appearance (based on the current speed level) and increase in speed. There are a total of 5 speed levels, and collecting speed upgrades past this point only increases score points. Apples, lives, and speed upgrades each award the player 10 score points. The exit door appears once the snake has eaten 20 apples, and entering it wins the game.
